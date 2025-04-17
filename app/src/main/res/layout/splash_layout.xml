@@ -7,19 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50sp"
+        android:text="From" />
+
     <ImageView
         android:id="@+id/idLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:scaleType="centerCrop"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:src="@drawable/whatsappicon"/>
-    <ImageView
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:src="@drawable/img"
         android:scaleType="centerCrop"
+        android:src="@drawable/whatsappicon" />
+
+    <ImageView
+        android:id="@+id/idLogoMeta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_gravity="center_horizontal|bottom"
-        android:id="@+id/idLogoMeta"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

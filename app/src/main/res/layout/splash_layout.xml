@@ -19,6 +19,7 @@
         android:layout_height="90dp"
         android:src="@drawable/img"
         android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal|bottom"
         android:id="@+id/idLogoMeta"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
